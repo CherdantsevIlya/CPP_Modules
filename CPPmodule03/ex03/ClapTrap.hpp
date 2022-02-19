@@ -1,0 +1,33 @@
+#ifndef DESKTOP_CLAPTRAP_H
+#define DESKTOP_CLAPTRAP_H
+
+#include <iostream>
+#include <string>
+
+class ClapTrap {
+
+protected:
+	std::string name;
+	unsigned int hitPoints;
+	unsigned int energyPoint;
+	unsigned int attackDamage;
+
+public:
+	ClapTrap();
+	ClapTrap(std::string clapTrapName);
+	ClapTrap(const ClapTrap& other);
+	~ClapTrap();
+	ClapTrap& operator= (const ClapTrap& other);
+    void setAttackDamage(unsigned int amount);
+    unsigned int getAttackDamage() const;
+    void setHitPoints(unsigned int amount);
+    unsigned int getHitPoints() const;
+    void setEnergyPoint(unsigned int amount);
+    unsigned int getEnergyPoint() const;
+    std::string getName() const;
+	void attack(const std::string& target);
+	void takeDamage(unsigned int amount);
+	void beRepaired(unsigned int amount);
+};
+
+#endif
