@@ -2,9 +2,9 @@ NAME	= a.out
 CC		= clang++
 CFLAGS	= -Wall -Wextra -Werror -std=c++98
 
-SRC		= 	main.cpp
+SRC		= 	main.cpp Span.cpp
 
-HDR		=	Array.hpp
+HDR		=	Span.hpp
 
 OBJ		= 	$(SRC:.cpp=.o)
 

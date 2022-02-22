@@ -4,7 +4,7 @@ CFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 SRC		= 	main.cpp
 
-HDR		=	Array.hpp
+HDR		=	easyfind.hpp
 
 OBJ		= 	$(SRC:.cpp=.o)
 
