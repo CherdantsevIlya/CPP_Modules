@@ -1,5 +1,5 @@
 NAME	= sed_if_for_loser
-CC		= clang++
+CC		= c++
 CFLAGS	= -Wall -Wextra -Werror -std=c++98
 
 SRC		= 	main.cpp

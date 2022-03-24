@@ -2,7 +2,7 @@
 
 Karen::Karen()
 {
-    this->f[0] = &Karen::debug;
+    this->f[0] = this->debug();
     this->f[1] = &Karen::info;
     this->f[2] = &Karen::warning;
     this->f[3] = &Karen::error;

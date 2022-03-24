@@ -6,7 +6,7 @@ int main(void) {
     std::cout << std::endl;
     int a = 2;
     int b = 3;
-    ::swap(a, b);
+	::swap(a, b);
     std::cout << "a = " << a << ", b = " << b << std::endl;
     std::cout << "min(a, b) = " << ::min(a, b) << std::endl;
     std::cout << "max(a, b) = " << ::max(a, b) << std::endl;
@@ -19,10 +19,10 @@ int main(void) {
     std::cout << std::endl;
 
     Awesome x(2), y(4);
-    swap(x, y);
+    ::swap(x, y);
     std::cout << "x = " << x << ", y = " << y << std::endl;
-    std::cout << "min(x, y) = " << min(x, y) << std::endl;
-    std::cout << "max(x, y) = " << max(x, y) << std::endl;
+    std::cout << "min(x, y) = " << ::min(x, y) << std::endl;
+    std::cout << "max(x, y) = " << ::max(x, y) << std::endl;
     std::cout << std::endl;
     return 0;
 }

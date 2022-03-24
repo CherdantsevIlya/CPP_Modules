@@ -5,7 +5,6 @@ int main()
     DiamondTrap diamond("Brilliant");
     ScavTrap stone("Stone");
 
-
     std::cout << std::endl;
     std::cout << "DiamondTrap hitPoints: " << diamond.getHitPoints() << std::endl;
     std::cout << "DiamondTrap energyPoint: " << diamond.getEnergyPoint() << std::endl;

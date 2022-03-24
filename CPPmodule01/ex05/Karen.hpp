@@ -12,7 +12,7 @@ private:
     void warning(void);
     void error(void);
     void test(void);
-    void (Karen::*f[5])();
+    void (*f[5])();
 
 public:
     Karen();

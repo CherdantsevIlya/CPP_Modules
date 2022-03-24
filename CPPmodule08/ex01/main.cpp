@@ -16,9 +16,6 @@ int main()
     // test 01
     try {
         Span sp1 = Span(3);
-        sp1.addNumber(42);
-        sp1.addNumber(52);
-        sp1.addNumber(62);
         sp1.addNumber(72);
     }
     catch (std::exception &exception) {

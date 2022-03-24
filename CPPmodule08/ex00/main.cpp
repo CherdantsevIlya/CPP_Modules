@@ -35,7 +35,7 @@ int main()
         std::cout << string << std::endl;
     }
     try {
-        std::cout << easyfind(lst, 2021) << std::endl;
+        std::cout << easyfind(lst, 2022) << std::endl;
     }
     catch (const char* string) {
         std::cout << string << std::endl;
